@@ -41,7 +41,9 @@ function updateCounts () {
   }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
-
+  makeGreen.length
+  makeBlue.length
+  hide.length
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
 }
