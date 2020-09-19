@@ -41,7 +41,7 @@ function updateCounts () {
   }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
-
+makeGreen.updateCounts ++
 
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
