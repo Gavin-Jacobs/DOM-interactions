@@ -29,7 +29,7 @@ evt.target.classList.toggle('blue')
 updateCounts()
 }
 // CREATE FUNCTION hide HERE
-function hide(){
+function hide(evt){
   evt.target.classList.toggle('invisible')
   updateCounts()
 }
@@ -41,7 +41,7 @@ function updateCounts () {
   }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
-  var green=makeGreen.length
+  int=makeGreen.length
   var blue=makeBlue.length
   var invisible=hide.length
   // Once you've done the counting, this function will update the display
