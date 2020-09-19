@@ -41,9 +41,9 @@ function updateCounts () {
   }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
-totals.blue=makeBlue.updateCounts
-totals.green=
-total.invisible=
+ if (makeBlue){
+   totals.blue +=
+ }
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
 }
